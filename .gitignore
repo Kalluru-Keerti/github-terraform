@@ -1,7 +1,12 @@
-variables.tf
-terraform.tfstate.backup
-provider.tf
-main.tf
-terraform.tfstate
-.terraform/providers/registry.terraform.io/hashicorp/tfe/0.36.1/darwin_arm64/terraform-provider-tfe_v0.36.1_x5
-.terraform.lock.hcl
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform cache
+.terraform/
+
+# Terraform variable values
+*.tfvars
+
+# Crash logs
+crash.log
